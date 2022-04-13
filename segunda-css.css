@@ -10,7 +10,7 @@ body{
                   /* Aplicando Grid*/
 .contenedor{
     width: 90%;
-    max-width: 2000px;
+    max-width: 1800px;
     margin: 0 ;
     display: grid;
     grid-gap: 0px ;
@@ -108,7 +108,7 @@ opacity: 1;
 
     display: flex;
     margin:0 auto;
-    width: 800px;
+    width: 600px;
     border-radius: 30px;
     padding-top: 20px;
     align-items: center;
@@ -119,12 +119,12 @@ opacity: 1;
 #ig{
     display: flex;
     width: 70px;
-    margin-left: 1500px;
+    margin-left: 1200px;
     border-radius: 20px;
 }
 
 #titulo{
-    font-size: 90px;
+    font-size: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:aqua;
     text-align: center;   
@@ -142,11 +142,12 @@ opacity: 1;
 }
 
 .marcas{
-    width: 500px;
+    width: 600px;
+    margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 30px;
-    justify-items: right;
     border-radius: 20px;
+    
 }
 
 footer{
@@ -212,10 +213,8 @@ footer{
 
 #wp{
     width: 80px;
-    position: fixed;
-    display: inline;
-    left: 1800px;
-    bottom: 50px;
+   
+    margin-left: 100%;
     border-radius: 20px;
 }
 
@@ -239,7 +238,8 @@ p{
 }
 
 .fng__pages{
-    margin-left:600px;
+    margin-left:50px;
+    width: 20%;
 }
 
 .lista {
@@ -299,6 +299,9 @@ margin-bottom: 20px;
 #ig {
     margin-left: 10px;
     margin-top: 20px;
+}
+#wp{
+    margin-left: 15%;
 }
 
 #gif{
